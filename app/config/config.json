@@ -1,0 +1,48 @@
+{
+    "development": {
+        "username": "ez_db_admin",
+        "password": "ezdbadmin",
+        "database": "ez_database",
+        "host": "ezdbinstance.cyeuo3jgyzok.ap-south-1.rds.amazonaws.com",
+        "timezone": "+00:00",
+        "dialect": "mysql",
+        "secret": "xoIalodZ/nWwWzFinhs=",
+        "distance_threshold_for_location_change": 1000,
+        "accessKeyId": "AKIAIKYNKON3B2YNYYVQ", 
+        "secretAccessKey": "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", 
+        "region": "ap-south-1",
+        "bucketName":"uploads-dev-ez"
+    },
+    "test": {
+        "username": "ez_db_admin",
+        "password": "ezdbadmin",
+        "database": "ez_db_test",
+        "host": "ezdbinstance.cyeuo3jgyzok.ap-south-1.rds.amazonaws.com",
+        "timezone": "+00:00",
+        "dialect": "mysql",
+        "secret": "uRYlC5NRE3xhW7rIMDg=",
+        "distance_threshold_for_location_change": 1000,
+        "accessKeyId": "AKIAIKYNKON3B2YNYYVQ", 
+        "secretAccessKey": "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", 
+        "region": "ap-south-1",
+        "bucketName": "uploads-test-ez"
+    },
+    "production": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "secret": "+GJJFkt1U/4Zx49p6nc=",
+        "distance_threshold_for_location_change": 1000,
+        "accessKeyId": "AKIAIKYNKON3B2YNYYVQ", 
+        "secretAccessKey": "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", 
+        "region": "ap-south-1"
+    },
+    "smssettings": {
+        "username": "ajit1369@gmail.com",
+        "sendersName": "EZSPAP",
+        "smsType": "TRANS",
+        "apiKey": "8b58138c-febb-48a9-ac05-969de2d01ec1"
+    }
+}
